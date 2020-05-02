@@ -1,6 +1,6 @@
-const secondHand = document.querySelector('.hand second-hand');
-const minsHand = document.querySelector('.hand min-hand');
-const hourHand = document.querySelector('.hand hour-hand');
+const secondHand = document.querySelector('.second-hand');
+const minsHand = document.querySelector('.min-hand');
+const hourHand = document.querySelector('.hour-hand');
 
 
 function setDate() {
@@ -20,3 +20,4 @@ function setDate() {
 };
 
 setInterval(setDate, 1000);
+
